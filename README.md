@@ -17,7 +17,12 @@ This project is aimed to identify the driving factor for loan defaulter from the
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-Purpose of loan with "debt_consolidation" is most posibilty for defaulter.
+Strong driver variables are:
+    purpose = debt_consolidation
+    home_ownership = RENT
+    verification_status = Not Verified
+    term = 36 months
+The most Critical case is the combination of above values, in these case Loan should be rejected.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
